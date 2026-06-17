@@ -22,15 +22,15 @@ When you ask an agent for "a nice placeholder image" or "an icon set for a sideb
 
 ## What's inside
 
-Each entry is `Name (link) — one-line note`. Seven categories, 8 curated picks each (+ extras in `references/more.md`):
+Each entry is `Name (link) — one-line note`. `SKILL.md` is a **dispatch index**: 2–3 top picks per category inline, with the full list in per-category reference files (loaded on demand):
 
-- 🖼️ Stock photos
-- 🎯 Icons
-- 🔤 Fonts
-- 🎨 Color palettes
-- 📱 Mockup
-- 🧩 UI Kit
-- 📄 Templates
+- 🖼️ Stock photos → `references/stock-photos.md`
+- 🎯 Icons → `references/icons.md`
+- 🔤 Fonts → `references/fonts.md`
+- 🎨 Color palettes → `references/color-palettes.md`
+- 📱 Mockup → `references/mockups.md`
+- 🧩 UI Kit → `references/ui-kits.md`
+- 📄 Templates → `references/templates.md`
 
 ## Install
 
@@ -54,9 +54,15 @@ Give me a few UI kits to reference
 
 ```
 design-assets-index/
-├── SKILL.md              # main index (≤100 lines)
-├── references/
-│   └── more.md           # extra entries
+├── SKILL.md              # dispatch index: 2-3 picks per category + pointers
+├── references/           # per-category full lists (loaded on demand)
+│   ├── stock-photos.md
+│   ├── icons.md
+│   ├── fonts.md
+│   ├── color-palettes.md
+│   ├── mockups.md
+│   ├── ui-kits.md
+│   └── templates.md
 └── README.md
 ```
 

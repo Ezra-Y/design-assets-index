@@ -22,15 +22,15 @@
 
 ## 内容
 
-每个条目为「名称（链接）— 一句话说明」。七个分类，每类 8 个精选（更多见 `references/more.md`）：
+每个条目为「名称（链接）— 一句话说明」。`SKILL.md` 是**调度索引**：每类 2–3 条精选内联，完整列表在按分类的 reference 文件（按需读取 / loaded on demand）：
 
-- 🖼️ 图库素材
-- 🎯 图标
-- 🔤 字体
-- 🎨 配色
-- 📱 Mockup
-- 🧩 UI Kit
-- 📄 模板
+- 🖼️ 图库素材 → `references/stock-photos.md`
+- 🎯 图标 → `references/icons.md`
+- 🔤 字体 → `references/fonts.md`
+- 🎨 配色 → `references/color-palettes.md`
+- 📱 Mockup → `references/mockups.md`
+- 🧩 UI Kit → `references/ui-kits.md`
+- 📄 模板 → `references/templates.md`
 
 ## 安装
 
@@ -54,18 +54,24 @@ I need an icon set for a sidebar — what are good sources?
 
 ```
 design-assets-index/
-├── SKILL.md              # 索引主体（≤100 行）
-├── references/
-│   └── more.md           # 溢出条目
+├── SKILL.md              # 调度索引：每类 2-3 精选 + 指针
+├── references/           # 按分类的完整列表（按需读取）
+│   ├── stock-photos.md
+│   ├── icons.md
+│   ├── fonts.md
+│   ├── color-palettes.md
+│   ├── mockups.md
+│   ├── ui-kits.md
+│   └── templates.md
 └── README.md
 ```
 
 ## 来源与致谢
 
-内容精选、精简自以下两个 awesome-list（请给原仓库点 star）：
+本 skill 的数据来自以下两个 awesome-list，经精选、精简、翻译而成；原列表收录更全、更新更勤，建议给原仓库点 star：
 
-- [gztchan/awesome-design](https://github.com/gztchan/awesome-design)
-- [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
+- [gztchan/awesome-design](https://github.com/gztchan/awesome-design) — Awesome Design 合集，含 Stock / Color / Icon and Logo / Typography / Mockup 等分类。
+- [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers) — Brad Traversy 维护的开发者向免费设计资源合集。
 
 更多 awesome 列表见 [sindresorhus/awesome](https://github.com/sindresorhus/awesome)。
 
