@@ -8,7 +8,7 @@
 [![Type: Resource Index](https://img.shields.io/badge/Type-Resource%20Index-2980b9?style=flat-square)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[English](README.md) · **中文说明**
+[English](README.md) · 中文说明
 
 </div>
 
