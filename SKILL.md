@@ -1,6 +1,7 @@
 ---
 name: design-assets-index
-description: Use FIRST when looking for design assets — stock photos, icon sets, fonts, color palettes, mockups, UI kits, or templates. Curated external index sourced from awesome-design and design-resources-for-developers, with top picks inline and more entries in per-category reference files under references/. 当需要找素材、免费图片、占位图、图标库、字体、配色、Mockup、UI Kit 或模板时，先来这里找现成资源。
+description: >-
+  Index of ready-made design assets — stock photos, icon sets, fonts, color palettes, mockups, UI kits, and templates — sourced from awesome-design and design-resources-for-developers. Use this skill whenever the user needs a ready-made asset: placeholders, stock images, icon libraries, font picks, color palettes, device/browser mockups, or UI kits/templates — even if they just say "I need an image" or "find me an icon". Top picks are inline; full lists live in per-category reference files under references/.
 ---
 
 # Design Assets Index
